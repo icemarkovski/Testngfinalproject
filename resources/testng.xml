@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Testng final project">
+<listeners>
+
+	<listener class-name="listeners.Listeners"></listener>
+
+</listeners>
+
+
+  <test name="test cases" thread-count="5" >
+    <classes>
+    
+       <class name="pack.TestRegister"/>
+    
+      <class name="pack.TestLogin"/>
+   
+      <class name="pack.TestSearch"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

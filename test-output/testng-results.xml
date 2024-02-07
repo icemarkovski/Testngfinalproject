@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="14" passed="14" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-02-06T21:26:27 CET" name="Testng final project" finished-at="2024-02-06T21:28:36 CET" duration-ms="128875">
+    <groups>
+    </groups>
+    <test started-at="2024-02-06T21:26:27 CET" name="test cases" finished-at="2024-02-06T21:28:36 CET" duration-ms="128875">
+      <class name="pack.TestRegister">
+        <test-method is-config="true" signature="open()[pri:0, instance:pack.TestRegister@6e9175d8]" started-at="2024-02-06T21:26:41 CET" name="open" finished-at="2024-02-06T21:26:50 CET" duration-ms="9261" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- open -->
+        <test-method signature="verifyRegisteringOnlyWithMandatoryFields()[pri:1, instance:pack.TestRegister@6e9175d8]" started-at="2024-02-06T21:26:50 CET" name="verifyRegisteringOnlyWithMandatoryFields" finished-at="2024-02-06T21:26:53 CET" duration-ms="2521" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyRegisteringOnlyWithMandatoryFields -->
+        <test-method is-config="true" signature="close()[pri:0, instance:pack.TestRegister@6e9175d8]" started-at="2024-02-06T21:26:53 CET" name="close" finished-at="2024-02-06T21:26:54 CET" duration-ms="1371" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method is-config="true" signature="open()[pri:0, instance:pack.TestRegister@6e9175d8]" started-at="2024-02-06T21:26:54 CET" name="open" finished-at="2024-02-06T21:27:06 CET" duration-ms="11335" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- open -->
+        <test-method signature="verifyRegisteringByProvidingAllFields()[pri:2, instance:pack.TestRegister@6e9175d8]" started-at="2024-02-06T21:27:06 CET" name="verifyRegisteringByProvidingAllFields" finished-at="2024-02-06T21:27:09 CET" duration-ms="3879" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyRegisteringByProvidingAllFields -->
+        <test-method is-config="true" signature="close()[pri:0, instance:pack.TestRegister@6e9175d8]" started-at="2024-02-06T21:27:10 CET" name="close" finished-at="2024-02-06T21:27:10 CET" duration-ms="591" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method is-config="true" signature="open()[pri:0, instance:pack.TestRegister@6e9175d8]" started-at="2024-02-06T21:27:10 CET" name="open" finished-at="2024-02-06T21:27:18 CET" duration-ms="8185" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- open -->
+        <test-method signature="verifyRegisteringAccountWithExistingEmailAdress()[pri:3, instance:pack.TestRegister@6e9175d8]" started-at="2024-02-06T21:27:18 CET" name="verifyRegisteringAccountWithExistingEmailAdress" finished-at="2024-02-06T21:27:20 CET" duration-ms="1869" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyRegisteringAccountWithExistingEmailAdress -->
+        <test-method is-config="true" signature="close()[pri:0, instance:pack.TestRegister@6e9175d8]" started-at="2024-02-06T21:27:20 CET" name="close" finished-at="2024-02-06T21:27:21 CET" duration-ms="394" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method is-config="true" signature="open()[pri:0, instance:pack.TestRegister@6e9175d8]" started-at="2024-02-06T21:27:21 CET" name="open" finished-at="2024-02-06T21:27:28 CET" duration-ms="7339" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- open -->
+        <test-method signature="verifyRegisteringAccountWithoutProvidingAnyDetails()[pri:4, instance:pack.TestRegister@6e9175d8]" started-at="2024-02-06T21:27:28 CET" name="verifyRegisteringAccountWithoutProvidingAnyDetails" finished-at="2024-02-06T21:27:29 CET" duration-ms="950" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyRegisteringAccountWithoutProvidingAnyDetails -->
+        <test-method is-config="true" signature="close()[pri:0, instance:pack.TestRegister@6e9175d8]" started-at="2024-02-06T21:27:29 CET" name="close" finished-at="2024-02-06T21:27:29 CET" duration-ms="529" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- pack.TestRegister -->
+      <class name="pack.TestSearch">
+        <test-method is-config="true" signature="open()[pri:0, instance:pack.TestSearch@18271936]" started-at="2024-02-06T21:26:27 CET" name="open" finished-at="2024-02-06T21:26:41 CET" duration-ms="13564" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- open -->
+        <test-method signature="verifySearchWithValidProduct()[pri:1, instance:pack.TestSearch@18271936]" started-at="2024-02-06T21:28:32 CET" name="verifySearchWithValidProduct" finished-at="2024-02-06T21:28:34 CET" duration-ms="1363" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySearchWithValidProduct -->
+        <test-method signature="verifySearchWithInvaldProduct()[pri:2, instance:pack.TestSearch@18271936]" started-at="2024-02-06T21:28:34 CET" name="verifySearchWithInvaldProduct" finished-at="2024-02-06T21:28:34 CET" duration-ms="834" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySearchWithInvaldProduct -->
+        <test-method signature="verifySearchWithoutProvidinAnyProduct()[pri:3, instance:pack.TestSearch@18271936]" started-at="2024-02-06T21:28:34 CET" name="verifySearchWithoutProvidinAnyProduct" finished-at="2024-02-06T21:28:35 CET" duration-ms="554" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySearchWithoutProvidinAnyProduct -->
+        <test-method is-config="true" signature="close()[pri:0, instance:pack.TestSearch@18271936]" started-at="2024-02-06T21:28:35 CET" name="close" finished-at="2024-02-06T21:28:36 CET" duration-ms="692" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- pack.TestSearch -->
+      <class name="pack.TestLogin">
+        <test-method is-config="true" signature="open()[pri:0, instance:pack.TestLogin@909217e]" started-at="2024-02-06T21:27:31 CET" name="open" finished-at="2024-02-06T21:27:38 CET" duration-ms="7261" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- open -->
+        <test-method signature="verifyLoginWithValidCredentials(java.lang.String,java.lang.String)[pri:1, instance:pack.TestLogin@909217e]" started-at="2024-02-06T21:27:38 CET" name="verifyLoginWithValidCredentials" data-provider="data" finished-at="2024-02-06T21:27:40 CET" duration-ms="1564" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Ice1bt@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[12345]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginWithValidCredentials -->
+        <test-method is-config="true" signature="close()[pri:0, instance:pack.TestLogin@909217e]" started-at="2024-02-06T21:27:40 CET" name="close" finished-at="2024-02-06T21:27:40 CET" duration-ms="348" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method is-config="true" signature="open()[pri:0, instance:pack.TestLogin@909217e]" started-at="2024-02-06T21:27:40 CET" name="open" finished-at="2024-02-06T21:27:47 CET" duration-ms="7005" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- open -->
+        <test-method signature="verifyLoginWithValidCredentials(java.lang.String,java.lang.String)[pri:1, instance:pack.TestLogin@909217e]" started-at="2024-02-06T21:27:47 CET" name="verifyLoginWithValidCredentials" data-provider="data" finished-at="2024-02-06T21:27:49 CET" duration-ms="1998" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Ice1bt@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[12345]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginWithValidCredentials -->
+        <test-method is-config="true" signature="close()[pri:0, instance:pack.TestLogin@909217e]" started-at="2024-02-06T21:27:49 CET" name="close" finished-at="2024-02-06T21:27:49 CET" duration-ms="415" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method is-config="true" signature="open()[pri:0, instance:pack.TestLogin@909217e]" started-at="2024-02-06T21:27:49 CET" name="open" finished-at="2024-02-06T21:27:56 CET" duration-ms="6450" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- open -->
+        <test-method signature="verifyLoginWithValidCredentials(java.lang.String,java.lang.String)[pri:1, instance:pack.TestLogin@909217e]" started-at="2024-02-06T21:27:56 CET" name="verifyLoginWithValidCredentials" data-provider="data" finished-at="2024-02-06T21:27:58 CET" duration-ms="1705" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Ice1bt@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[12345]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginWithValidCredentials -->
+        <test-method is-config="true" signature="close()[pri:0, instance:pack.TestLogin@909217e]" started-at="2024-02-06T21:27:58 CET" name="close" finished-at="2024-02-06T21:27:58 CET" duration-ms="447" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method is-config="true" signature="open()[pri:0, instance:pack.TestLogin@909217e]" started-at="2024-02-06T21:27:58 CET" name="open" finished-at="2024-02-06T21:28:05 CET" duration-ms="6607" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- open -->
+        <test-method signature="verifyLoginWithInvalidCredentials()[pri:2, instance:pack.TestLogin@909217e]" started-at="2024-02-06T21:28:05 CET" name="verifyLoginWithInvalidCredentials" finished-at="2024-02-06T21:28:06 CET" duration-ms="1731" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginWithInvalidCredentials -->
+        <test-method is-config="true" signature="close()[pri:0, instance:pack.TestLogin@909217e]" started-at="2024-02-06T21:28:06 CET" name="close" finished-at="2024-02-06T21:28:07 CET" duration-ms="485" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method is-config="true" signature="open()[pri:0, instance:pack.TestLogin@909217e]" started-at="2024-02-06T21:28:07 CET" name="open" finished-at="2024-02-06T21:28:14 CET" duration-ms="7461" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- open -->
+        <test-method signature="loginWithInvalidEmailAndValidPassword()[pri:3, instance:pack.TestLogin@909217e]" started-at="2024-02-06T21:28:14 CET" name="loginWithInvalidEmailAndValidPassword" finished-at="2024-02-06T21:28:15 CET" duration-ms="1054" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginWithInvalidEmailAndValidPassword -->
+        <test-method is-config="true" signature="close()[pri:0, instance:pack.TestLogin@909217e]" started-at="2024-02-06T21:28:15 CET" name="close" finished-at="2024-02-06T21:28:16 CET" duration-ms="352" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method is-config="true" signature="open()[pri:0, instance:pack.TestLogin@909217e]" started-at="2024-02-06T21:28:16 CET" name="open" finished-at="2024-02-06T21:28:22 CET" duration-ms="6354" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- open -->
+        <test-method signature="loginWithValidEmailAndInvalidPassword()[pri:4, instance:pack.TestLogin@909217e]" started-at="2024-02-06T21:28:22 CET" name="loginWithValidEmailAndInvalidPassword" finished-at="2024-02-06T21:28:23 CET" duration-ms="1473" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginWithValidEmailAndInvalidPassword -->
+        <test-method is-config="true" signature="close()[pri:0, instance:pack.TestLogin@909217e]" started-at="2024-02-06T21:28:24 CET" name="close" finished-at="2024-02-06T21:28:24 CET" duration-ms="317" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method is-config="true" signature="open()[pri:0, instance:pack.TestLogin@909217e]" started-at="2024-02-06T21:28:24 CET" name="open" finished-at="2024-02-06T21:28:31 CET" duration-ms="7124" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- open -->
+        <test-method signature="loginWithNotProvidingAnyCredentials()[pri:5, instance:pack.TestLogin@909217e]" started-at="2024-02-06T21:28:31 CET" name="loginWithNotProvidingAnyCredentials" finished-at="2024-02-06T21:28:32 CET" duration-ms="951" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginWithNotProvidingAnyCredentials -->
+        <test-method is-config="true" signature="close()[pri:0, instance:pack.TestLogin@909217e]" started-at="2024-02-06T21:28:32 CET" name="close" finished-at="2024-02-06T21:28:32 CET" duration-ms="355" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- pack.TestLogin -->
+    </test> <!-- test cases -->
+  </suite> <!-- Testng final project -->
+</testng-results>

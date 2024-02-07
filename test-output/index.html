@@ -1,0 +1,623 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-Testng_final_project" class="navigator-link">
+              <span class="suite-name border-passed">Testng final project</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-Testng_final_project" class="navigator-link ">
+                    <span>C:\Users\user\eclipse-workspace\Testngfinalproject\resources\testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-Testng_final_project" class="navigator-link ">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-Testng_final_project" class="navigator-link ">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-Testng_final_project" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-Testng_final_project" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-Testng_final_project" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-Testng_final_project" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">14 methods,   14 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Testng_final_project" class="hide-methods passed suite-Testng_final_project"> (hide)</a> <!-- hide-methods passed suite-Testng_final_project -->
+                      <a href="#" panel-name="suite-Testng_final_project" class="show-methods passed suite-Testng_final_project"> (show)</a> <!-- show-methods passed suite-Testng_final_project -->
+                    </span>
+                    <div class="method-list-content passed suite-Testng_final_project">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Testng_final_project" title="pack.TestLogin" class="method navigator-link" hash-for-method="loginWithInvalidEmailAndValidPassword">loginWithInvalidEmailAndValidPassword</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Testng_final_project" title="pack.TestLogin" class="method navigator-link" hash-for-method="loginWithNotProvidingAnyCredentials">loginWithNotProvidingAnyCredentials</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Testng_final_project" title="pack.TestLogin" class="method navigator-link" hash-for-method="loginWithValidEmailAndInvalidPassword">loginWithValidEmailAndInvalidPassword</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Testng_final_project" title="pack.TestLogin" class="method navigator-link" hash-for-method="verifyLoginWithInvalidCredentials">verifyLoginWithInvalidCredentials</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Testng_final_project" title="pack.TestLogin" class="method navigator-link" hash-for-method="verifyLoginWithValidCredentials(Ice1bt@gmail.com, 12345)">verifyLoginWithValidCredentials(Ice1bt@gmail.com, 12345)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Testng_final_project" title="pack.TestLogin" class="method navigator-link" hash-for-method="verifyLoginWithValidCredentials(Ice1bt@gmail.com, 12345)">verifyLoginWithValidCredentials(Ice1bt@gmail.com, 12345)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Testng_final_project" title="pack.TestLogin" class="method navigator-link" hash-for-method="verifyLoginWithValidCredentials(Ice1bt@gmail.com, 12345)">verifyLoginWithValidCredentials(Ice1bt@gmail.com, 12345)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Testng_final_project" title="pack.TestRegister" class="method navigator-link" hash-for-method="verifyRegisteringAccountWithExistingEmailAdress">verifyRegisteringAccountWithExistingEmailAdress</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Testng_final_project" title="pack.TestRegister" class="method navigator-link" hash-for-method="verifyRegisteringAccountWithoutProvidingAnyDetails">verifyRegisteringAccountWithoutProvidingAnyDetails</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Testng_final_project" title="pack.TestRegister" class="method navigator-link" hash-for-method="verifyRegisteringByProvidingAllFields">verifyRegisteringByProvidingAllFields</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Testng_final_project" title="pack.TestRegister" class="method navigator-link" hash-for-method="verifyRegisteringOnlyWithMandatoryFields">verifyRegisteringOnlyWithMandatoryFields</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Testng_final_project" title="pack.TestSearch" class="method navigator-link" hash-for-method="verifySearchWithInvaldProduct">verifySearchWithInvaldProduct</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Testng_final_project" title="pack.TestSearch" class="method navigator-link" hash-for-method="verifySearchWithValidProduct">verifySearchWithValidProduct</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Testng_final_project" title="pack.TestSearch" class="method navigator-link" hash-for-method="verifySearchWithoutProvidinAnyProduct">verifySearchWithoutProvidinAnyProduct</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Testng_final_project -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Testng_final_project" class="panel Testng_final_project">
+          <div class="suite-Testng_final_project-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">pack.TestLogin</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginWithInvalidEmailAndValidPassword">
+                  </a> <!-- loginWithInvalidEmailAndValidPassword -->
+                  <span class="method-name">loginWithInvalidEmailAndValidPassword</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginWithNotProvidingAnyCredentials">
+                  </a> <!-- loginWithNotProvidingAnyCredentials -->
+                  <span class="method-name">loginWithNotProvidingAnyCredentials</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginWithValidEmailAndInvalidPassword">
+                  </a> <!-- loginWithValidEmailAndInvalidPassword -->
+                  <span class="method-name">loginWithValidEmailAndInvalidPassword</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyLoginWithInvalidCredentials">
+                  </a> <!-- verifyLoginWithInvalidCredentials -->
+                  <span class="method-name">verifyLoginWithInvalidCredentials</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyLoginWithValidCredentials(Ice1bt@gmail.com, 12345)">
+                  </a> <!-- verifyLoginWithValidCredentials(Ice1bt@gmail.com, 12345) -->
+                  <span class="method-name">verifyLoginWithValidCredentials</span>
+                  <span class="parameters">(Ice1bt@gmail.com,12345)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyLoginWithValidCredentials(Ice1bt@gmail.com, 12345)">
+                  </a> <!-- verifyLoginWithValidCredentials(Ice1bt@gmail.com, 12345) -->
+                  <span class="method-name">verifyLoginWithValidCredentials</span>
+                  <span class="parameters">(Ice1bt@gmail.com,12345)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyLoginWithValidCredentials(Ice1bt@gmail.com, 12345)">
+                  </a> <!-- verifyLoginWithValidCredentials(Ice1bt@gmail.com, 12345) -->
+                  <span class="method-name">verifyLoginWithValidCredentials</span>
+                  <span class="parameters">(Ice1bt@gmail.com,12345)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Testng_final_project-class-passed -->
+          <div class="suite-Testng_final_project-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">pack.TestSearch</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifySearchWithInvaldProduct">
+                  </a> <!-- verifySearchWithInvaldProduct -->
+                  <span class="method-name">verifySearchWithInvaldProduct</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifySearchWithValidProduct">
+                  </a> <!-- verifySearchWithValidProduct -->
+                  <span class="method-name">verifySearchWithValidProduct</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifySearchWithoutProvidinAnyProduct">
+                  </a> <!-- verifySearchWithoutProvidinAnyProduct -->
+                  <span class="method-name">verifySearchWithoutProvidinAnyProduct</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Testng_final_project-class-passed -->
+          <div class="suite-Testng_final_project-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">pack.TestRegister</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyRegisteringAccountWithExistingEmailAdress">
+                  </a> <!-- verifyRegisteringAccountWithExistingEmailAdress -->
+                  <span class="method-name">verifyRegisteringAccountWithExistingEmailAdress</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyRegisteringAccountWithoutProvidingAnyDetails">
+                  </a> <!-- verifyRegisteringAccountWithoutProvidingAnyDetails -->
+                  <span class="method-name">verifyRegisteringAccountWithoutProvidingAnyDetails</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyRegisteringByProvidingAllFields">
+                  </a> <!-- verifyRegisteringByProvidingAllFields -->
+                  <span class="method-name">verifyRegisteringByProvidingAllFields</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyRegisteringOnlyWithMandatoryFields">
+                  </a> <!-- verifyRegisteringOnlyWithMandatoryFields -->
+                  <span class="method-name">verifyRegisteringOnlyWithMandatoryFields</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Testng_final_project-class-passed -->
+        </div> <!-- panel Testng_final_project -->
+        <div panel-name="test-xml-Testng_final_project" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\user\eclipse-workspace\Testngfinalproject\resources\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;Testng final project&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
+  &lt;listeners&gt;
+    &lt;listener class-name=&quot;listeners.Listeners&quot;/&gt;
+  &lt;/listeners&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;test cases&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;pack.TestRegister&quot;/&gt;
+      &lt;class name=&quot;pack.TestLogin&quot;/&gt;
+      &lt;class name=&quot;pack.TestSearch&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- test cases --&gt;
+&lt;/suite&gt; &lt;!-- Testng final project --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Testng_final_project" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Testng final project</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">test cases (3 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Testng_final_project" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Testng final project</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Testng_final_project" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Testng final project</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Testng_final_project');
+function tableData_Testng_final_project() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(14);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'verifyRegisteringByProvidingAllFields')
+data.setCell(0, 2, 'pack.TestRegister')
+data.setCell(0, 3, 3879);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'verifyRegisteringOnlyWithMandatoryFields')
+data.setCell(1, 2, 'pack.TestRegister')
+data.setCell(1, 3, 2521);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'verifyLoginWithValidCredentials')
+data.setCell(2, 2, 'pack.TestLogin')
+data.setCell(2, 3, 1998);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'verifyRegisteringAccountWithExistingEmailAdress')
+data.setCell(3, 2, 'pack.TestRegister')
+data.setCell(3, 3, 1869);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'verifyLoginWithInvalidCredentials')
+data.setCell(4, 2, 'pack.TestLogin')
+data.setCell(4, 3, 1731);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'verifyLoginWithValidCredentials')
+data.setCell(5, 2, 'pack.TestLogin')
+data.setCell(5, 3, 1705);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'verifyLoginWithValidCredentials')
+data.setCell(6, 2, 'pack.TestLogin')
+data.setCell(6, 3, 1564);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'loginWithValidEmailAndInvalidPassword')
+data.setCell(7, 2, 'pack.TestLogin')
+data.setCell(7, 3, 1473);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'verifySearchWithValidProduct')
+data.setCell(8, 2, 'pack.TestSearch')
+data.setCell(8, 3, 1363);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'loginWithInvalidEmailAndValidPassword')
+data.setCell(9, 2, 'pack.TestLogin')
+data.setCell(9, 3, 1054);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'loginWithNotProvidingAnyCredentials')
+data.setCell(10, 2, 'pack.TestLogin')
+data.setCell(10, 3, 951);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'verifyRegisteringAccountWithoutProvidingAnyDetails')
+data.setCell(11, 2, 'pack.TestRegister')
+data.setCell(11, 3, 950);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'verifySearchWithInvaldProduct')
+data.setCell(12, 2, 'pack.TestSearch')
+data.setCell(12, 3, 834);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'verifySearchWithoutProvidinAnyProduct')
+data.setCell(13, 2, 'pack.TestSearch')
+data.setCell(13, 3, 554);
+window.suiteTableData['Testng_final_project']= { tableData: data, tableDiv: 'times-div-Testng_final_project'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 22 seconds</span>
+              <div id="times-div-Testng_final_project">
+              </div> <!-- times-div-Testng_final_project -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Testng_final_project" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Testng final project</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Testng_final_project" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Testng_final_project" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">pack.TestSearch</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">open</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-test before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">pack.TestRegister</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">open</span>
+                <span class="method-start">13662 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyRegisteringOnlyWithMandatoryFields</span>
+                <span class="method-start">22924 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">close</span>
+                <span class="method-start">25465 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">open</span>
+                <span class="method-start">26844 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyRegisteringByProvidingAllFields</span>
+                <span class="method-start">38179 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">close</span>
+                <span class="method-start">42061 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">open</span>
+                <span class="method-start">42654 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyRegisteringAccountWithExistingEmailAdress</span>
+                <span class="method-start">50840 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">close</span>
+                <span class="method-start">52714 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">open</span>
+                <span class="method-start">53109 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyRegisteringAccountWithoutProvidingAnyDetails</span>
+                <span class="method-start">60449 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">close</span>
+                <span class="method-start">61402 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">pack.TestLogin</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">open</span>
+                <span class="method-start">63307 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyLoginWithValidCredentials(Ice1bt@gmail.com, 12345)</span>
+                <span class="method-start">70568 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">close</span>
+                <span class="method-start">72140 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">open</span>
+                <span class="method-start">72489 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyLoginWithValidCredentials(Ice1bt@gmail.com, 12345)</span>
+                <span class="method-start">79495 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">close</span>
+                <span class="method-start">81499 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">open</span>
+                <span class="method-start">81914 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyLoginWithValidCredentials(Ice1bt@gmail.com, 12345)</span>
+                <span class="method-start">88365 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">close</span>
+                <span class="method-start">90083 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">open</span>
+                <span class="method-start">90532 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyLoginWithInvalidCredentials</span>
+                <span class="method-start">97140 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">close</span>
+                <span class="method-start">98874 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">open</span>
+                <span class="method-start">99361 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">loginWithInvalidEmailAndValidPassword</span>
+                <span class="method-start">106822 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">close</span>
+                <span class="method-start">107878 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">open</span>
+                <span class="method-start">108231 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">loginWithValidEmailAndInvalidPassword</span>
+                <span class="method-start">114585 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">close</span>
+                <span class="method-start">116061 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">open</span>
+                <span class="method-start">116380 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">loginWithNotProvidingAnyCredentials</span>
+                <span class="method-start">123504 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">close</span>
+                <span class="method-start">124457 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">pack.TestSearch</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">verifySearchWithValidProduct</span>
+                <span class="method-start">124812 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifySearchWithInvaldProduct</span>
+                <span class="method-start">126182 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifySearchWithoutProvidinAnyProduct</span>
+                <span class="method-start">127018 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-test after">
+                <span class="method-name">close</span>
+                <span class="method-start">127575 ms</span>
+              </div> <!-- configuration-test after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>
